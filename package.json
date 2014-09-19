@@ -1,0 +1,17 @@
+{
+  "name": "htmlfile",
+  "version": "0.0.2",
+  "description": "Create a htmlfile for Internet Explorer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "htmlfile"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "dependencies": {
+    "axo": "0.0.x"
+  }
+}
