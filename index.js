@@ -48,7 +48,7 @@ htmlfile.destroy = function destroy() {
  * @returns {Boolean}
  * @api public
  */
-htmlfile.supported = function supported() {
+htmlfile.supported = (function supported() {
   try { return !!new AXO('htmlfile') && 'function' === typeof CollectGarbage; }
   catch (e) { return false; }
-};
+}());
