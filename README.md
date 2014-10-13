@@ -1,6 +1,8 @@
 # htmlfile
 
 [![Build Status](https://travis-ci.org/unshiftio/htmlfile.svg?branch=master)](https://travis-ci.org/unshiftio/htmlfile)
+[![NPM version](https://badge.fury.io/js/htmlfile.svg)](http://badge.fury.io/js/htmlfile)
+[![Coverage Status](https://img.shields.io/coveralls/unshiftio/htmlfile.svg)](https://coveralls.io/r/unshiftio/htmlfile?branch=master)
 
 Create a new ActiveXObject powered `htmlfile` which includes feature detection
 and prevention against blockage by firewalls / virus scanners due to it's
