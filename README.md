@@ -1,5 +1,7 @@
 # htmlfile
 
+[![Build Status](https://travis-ci.org/unshiftio/htmlfile.svg?branch=master)](https://travis-ci.org/unshiftio/htmlfile)
+
 Create a new ActiveXObject powered `htmlfile` which includes feature detection
 and prevention against blockage by firewalls / virus scanners due to it's
 dependency upon the `axo` module.
