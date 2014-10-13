@@ -1,6 +1,6 @@
 {
   "name": "htmlfile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a htmlfile for Internet Explorer.",
   "main": "index.js",
   "scripts": {
