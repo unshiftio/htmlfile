@@ -10,7 +10,14 @@ var AXO = require('axo');
  * @api public
  */
 var htmlfile = module.exports = function create(domain) {
-  domain = domain || document.domain;
+  try { domain = domain || global.document.domain; }
+  catch (e) {
+    //
+    // Don't throw because we're not allowed to access domain info. WP is known
+    // to throw for this and ActiveX can be supported by Windows Phone + Mobile
+    // IE. In addition to that, this allows testing under Node.js
+    //
+  }
 
   var htmlfile = new AXO('htmlfile')
     , body = '<html><body>';
